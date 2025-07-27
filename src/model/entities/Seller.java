@@ -63,11 +63,11 @@ public class Seller implements Serializable{
     	return this.email;
     }
     
-    public Date birthDate() {
+    public Date getBirthDate() {
     	return this.birthDate;
     }
     
-    public Double baseSalary() {
+    public Double getBaseSalary() {
     	return this.baseSalary;
     }
     
